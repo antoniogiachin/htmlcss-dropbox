@@ -331,3 +331,45 @@ header .nav--right{
     width: 50%;
     height: 100%;
 }
+
+/* faq  */
+#faq .container{
+    background-color: yellowgreen;
+    width: 90%;
+    max-width: 1180px;
+    height: 600px;
+    min-height: 600px;
+    margin: 100px auto;
+}
+
+/* questo sarà hidden e con hover display block  */
+#faq p{
+    max-width: 780px;
+    margin: auto;
+}
+
+
+/* footer  */
+footer{
+    width: 100%;
+    background-color: #000;
+    height: 500px;
+    min-height: 500px;
+    margin: 50px 0px;
+}
+
+footer .container{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+}
+
+.col--list ul li {
+    color: #fff;
+    list-style-type: none;
+}
+
+.col--list ul li a{
+    text-decoration: none;
+    color: #fff;
+}
