@@ -187,4 +187,40 @@ header .nav--right{
     height: 100px;
 }
 
+/* section partner  */
+#partner .container{
+    background-color: blue;
+    width: 90%;
+    max-width: 1180px;
+    height: 600px;
+    min-height: 600px;
+    margin: 100px auto;    
+}
+    /* partner clearfix  */
+.partner__clearfix{
+    width: 100%;
+    height: 100%;
+}
+
+.partner__clearfix{
+    display: table;
+    content: "";
+    clear: both;
+}
+    /* partner float  */
+.partner__img{
+    width: 50%;
+    height: 600px;
+    float: left;
+    background-color: brown;
+}
+
+.partner__text{
+    width: 50%;
+    height: 600px;
+    float: left;
+    background-color: burlywood;
+}
+
+
 
