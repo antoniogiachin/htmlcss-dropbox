@@ -62,7 +62,9 @@ header .nav--right{
     width: 90%;
     max-width: 1180px;
     height: 800px;
+    min-height: 800px;
     margin: auto;
+    margin-bottom: 50px;
 }
 
 #jumbotron h1{
@@ -96,3 +98,93 @@ header .nav--right{
     background-color: blue;
     float: left;
 }
+
+/* main  */
+
+/* section plans  */
+
+#plans .container{
+    background-color: yellowgreen;
+    width: 90%;
+    max-width: 1180px;
+    height: 1200px;
+    min-height: 1200px;
+    margin: 100px auto;    
+}
+
+    /* plans header  */
+#plans__header{
+    height: 150px;
+    width: 100%;
+    background-color: aqua;
+}
+
+    /* plans col  */
+#plans__clearfix{
+    height: 750px;
+    width: 100%;
+    background-color: bisque;
+}
+#plans__clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col{
+    width: calc(100% / 3 - 20px);
+   margin: 0px 10px;
+    height: 98%;
+    background-color: darkblue;
+    float: left;
+}
+
+.col .col__type{
+    height: 40px;
+    background-color: darkcyan;
+}
+
+.col .col__price{
+    height: 300px;
+    background-color: darkmagenta;
+}
+
+.col .col__info{
+    height: 300px;
+    background-color: darkred;
+}
+
+    plans footer
+#plans__footer{
+    height: 100px;
+    width: 100%;
+    background-color: blueviolet;
+}
+
+.plans__footer--type{
+    height: 40px;
+    background-color: darkred;
+}
+
+
+#plans__footer--clearfix::after{
+    display: table;
+    content: "";
+    clear: both;
+}
+
+.plans__footer--price{
+    width: 60%;
+    background-color: darkslateblue;
+    float: left;
+    height: 100px;
+}
+
+.plans__footer--btn{
+    width: 40%;
+    float: left;
+    background-color: darkslategray;
+    height: 100px;
+}
+
+
