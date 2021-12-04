@@ -1,0 +1,62 @@
+
+/* nav bonus  */
+.nav__right{
+    position: relative;
+}
+
+.dropdown {
+    min-width: 40%;
+    background-color: #fff;
+    color: #222;
+    position: absolute;
+    top: 50px;
+    left: 5px;
+    border-top: 3px solid #222;
+    display: none;
+    z-index: 999;
+}
+
+.dropdown a{
+    display: block;
+    text-decoration: none;
+    
+}
+
+.dropdown a:hover{
+    background-color: lightseagreen;
+    opacity: 0.6;
+    color: #fff;
+}
+
+.nav__left ul li:not(:first-child):hover{
+    border-bottom: 3px solid #222;
+}
+
+.nav__right ul li:nth-child(2):hover{
+    border-bottom: 3px solid #222;
+}
+
+.nav__right ul li:nth-child(3):hover{
+    border-bottom: 3px solid #222;
+}
+
+.nav__right ul li:first-of-type:hover .dropdown{
+    display: block;
+}
+
+/* jumbo bonus  */
+#jumbotron{
+    background-image: linear-gradient(#B5D1E8 85%, #fff 15%);
+    /* per sfondo colore diviso  */
+}
+
+/* faq bonus  */
+#faq span:hover + p{
+    display: block;
+}    
+
+/* footer bonus  */
+.ftcol--list ul li a:hover{
+    text-decoration: underline;
+}
+
