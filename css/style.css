@@ -459,20 +459,24 @@ nav ul li img{
     font-size: 30px;
 }
 
-/* faq  */
-#faq .container{
-    background-color: yellowgreen;
-    width: 90%;
-    max-width: 1180px;
-    height: 600px;
-    min-height: 600px;
-    margin: 100px auto;
-}
 
+/* faq section */
+#faq h4{
+    width: 95%;
+    display: inline-block;
+}
 /* questo sarà hidden e con hover display block  */
 #faq p{
-    max-width: 780px;
+    max-width: 880px;
     margin: auto;
+    padding: 30px 0px;
+    display: none;
+}
+
+hr{
+    color: #fff;
+    opacity: 0.8;
+    margin: 20px 0px ;
 }
 
 
