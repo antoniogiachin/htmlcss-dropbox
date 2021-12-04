@@ -3,6 +3,7 @@
     box-sizing: border-box;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
+    color: #222;
 }
 
 /* generali  */
@@ -142,7 +143,6 @@ header{
 
 nav ul{
     line-height: 50px;
-    text-align: center;
     overflow: hidden;
     /* così non esce fuori contenuto se stretch */
 }
@@ -157,7 +157,6 @@ nav ul li a {
     display: inline-block;
     text-decoration: none;
     padding: 0px 8px;
-    color: #222  ;
 }
 
 nav ul li img{
@@ -195,7 +194,6 @@ nav ul li img{
 
 .arrow i{
     text-decoration: none;
-    color: #222;
     font-size: 2em;
 }
 
@@ -246,6 +244,10 @@ nav ul li img{
 .col .col__content, .col .col__info, .plans__footer--content{
     padding: 15px;
     line-height: 35px;
+}
+
+.col__content .col__price--bottom .span--medium a{
+    color: #0062ff;
 }
 
 .col__info .span--medium::before{
@@ -301,7 +303,6 @@ nav ul li img{
 
 .partner__text .start--trial{
     background-color: #fff;
-    color: #222;
     border: 1px solid black;
 }
 
