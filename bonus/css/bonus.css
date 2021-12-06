@@ -44,6 +44,7 @@
     display: block;
 }
 
+
 /* jumbo bonus  */
 #jumbotron{
     background-image: linear-gradient(#B5D1E8 85%, #fff 15%);
@@ -57,6 +58,10 @@
 
 /* footer bonus  */
 .ftcol--list ul li a:hover{
+    text-decoration: underline;
+}
+
+footer span a:hover{
     text-decoration: underline;
 }
 

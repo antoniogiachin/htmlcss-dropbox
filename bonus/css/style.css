@@ -334,26 +334,17 @@ nav ul li img{
 .plans__footer--btn{
     width: 35%;
     float: left;
-    height: 100px;
     padding: 15px 25px;
 }
 
 
 /* section partner  */
-#partner .container{
-    height: 600px;
-    min-height: 600px;
-}
-
 .partner__img{
     width: 50%;
-    height: 100%;
 }
     /* left img  */
 .partner__img img{
     width: 100%;
-    height: 100%;
-    object-fit: cover;
 }
     /* text right  */
 .partner__text{
@@ -526,8 +517,9 @@ footer .footer__cut{
 
     /* footer span lang */
 
-footer span{
+footer span a{
     color: #fff;
+    text-decoration: none;
 }
 
 footer span::before{
