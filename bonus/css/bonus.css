@@ -22,12 +22,6 @@
     
 }
 
-.dropdown a:hover{
-    background-color: lightseagreen;
-    opacity: 0.6;
-    color: #fff;
-}
-
 .nav__left ul li:not(:first-child):hover{
     border-bottom: 3px solid #222;
 }
@@ -44,14 +38,21 @@
     display: block;
 }
 
-
 /* jumbo bonus  */
 #jumbotron{
     background-image: linear-gradient(#B5D1E8 85%, #fff 15%);
     /* per sfondo colore diviso  */
 }
 
-/* faq bonus  */
+/* hover bonus  */
+.nav--btn a:hover, .start--trial:hover, .start--trial--wh:hover{
+    box-shadow: 2px 2px 6px #222;
+}
+
+.nav--btn a:hover, .start--trial a:hover, .start--trial--wh a:hover{
+    text-decoration: underline;
+}
+
 #faq span:hover + p{
     display: block;
 }    
@@ -63,5 +64,11 @@
 
 footer span a:hover{
     text-decoration: underline;
+}
+
+.dropdown a:hover{
+    background-color: lightseagreen;
+    opacity: 0.6;
+    color: #fff;
 }
 
