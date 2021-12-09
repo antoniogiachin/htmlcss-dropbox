@@ -313,17 +313,19 @@ nav ul li img{
 
     /* plans col content e info */
 .col .col__content, .col .col__info, .plans__footer--content{
-    line-height: 35px;
+    line-height: 45px;
 }
 
 .col__content .col__price--bottom .span--medium a{
     color: #0062ff;
 }
 
-.col__info .span--medium::before{
-    content: "\2713" ;
-    color: blue;
-    font-size: 1.2em;
+.col__price--center.fa-ul{
+    margin-left:1.5em;
+}
+
+.fa-ul .fa-check{
+    color: #0062ff;
 }
 
 /* footer plans  */
